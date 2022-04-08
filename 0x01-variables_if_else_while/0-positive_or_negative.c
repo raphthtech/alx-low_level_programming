@@ -7,12 +7,14 @@
  * it is positive, negative or zero
  * Return: Always 0
  */
- int main(void)
+int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* checking whether the number is pisitve, negative or zero*/
+	
 	if (n > 1)
 		printf("%d is positive\n", n);
 	else if (n < 0)
