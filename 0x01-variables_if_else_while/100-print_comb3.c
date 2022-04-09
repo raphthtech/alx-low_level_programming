@@ -1,9 +1,9 @@
 #include <stdio.h>
-/**                                                                                                                             
- * main - entry point                                                                                                           
- *                                                                                                                           
- * Description: print all possible combinations of two digits                                                                   
- * Return: 9                                                                                                                    
+/**
+ * main - entry point
+ * 
+ * Description: print all possible combinations of two digits
+ * Return: 9
  */
 int main(void)
 {
@@ -16,7 +16,7 @@ int main(void)
 	{
 	putchar((num1 % 10) + '0');
 	putchar((num2 % 10) + '0');
-
+	
 	if (num1 == 8 && num2 == 9)
 	continue;
 	
@@ -24,7 +24,6 @@ int main(void)
 	putchar(' ');
 	}
 	}
-	
 	putchar('\n');
 	
 	return (0);
