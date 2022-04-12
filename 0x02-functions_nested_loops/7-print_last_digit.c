@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit - Prints the last digit of a number
- * @n - The number in questions
+ * @n: The number in questions
  *
  * Return: The value of the last digit
  */
