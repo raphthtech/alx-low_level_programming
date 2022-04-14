@@ -15,12 +15,13 @@ void more_numbers(void)
 	result = 0;
 	while (i < 10)
 	{
-	while (i <= 14)
+	while (result <= 14)
 	{
 	if (result < 10)
 	{
 	second_number = result;
 	}
+
 	else
 	{
 	first_number = result / 10;
