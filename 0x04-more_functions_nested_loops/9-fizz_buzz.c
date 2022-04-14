@@ -4,6 +4,7 @@
  *
  * Return: void
  */
+
 int main(void)
 {
 	int p = 100;
@@ -33,7 +34,7 @@ int main(void)
 	
 	else
 	{
-	printf("%i ", i);
+	printf("%d ", i);
 	}
 
 	i++;
