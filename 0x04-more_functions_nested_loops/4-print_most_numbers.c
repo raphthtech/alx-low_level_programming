@@ -2,7 +2,7 @@
 /**
  * print_most_numbers - print numbers
  *
- * Return: Always 0
+ * Return: Always 0.
  */
 void print_most_numbers(void)
 {
@@ -11,7 +11,7 @@ void print_most_numbers(void)
 	i = 0;
 	while (i < 10)
 	{
-	if (i != 2 && 1 != 4)
+	if (i != 2 && i != 4)
 	{
 	_putchar(i + '0');
 	}
