@@ -12,7 +12,7 @@ int main(void)
 
 	i = 0;
 
-	/*
+	/**
 	 * while (i < 10)
 	 * {
 	 * Infinte loop - No increase of variable
