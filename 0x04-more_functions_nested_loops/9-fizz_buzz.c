@@ -4,42 +4,34 @@
  *
  * Return: void
  */
-
 int main(void)
 {
-	int p = 100;
-	int i;
+	int end_number = 100;
+	int start_number;
 
-	i = 1;
-	while (i <= p)
+	start_number = 1;
+	while (start_number <= end_number)
 	{
-	if (i % 3 == 0 && i % 5 == 0)
+	if (start_number % 3 == 0 && start_number % 5 == 0)
 	{
 	printf("FizzBuzz ");
 	}
-	
-	else if (i % 3 == 0)
+
+	else if (start_number % 3 == 0)
 	{
 	printf("Fizz ");
 	}
-	
-	else if (i % 5 == 0)
+
+	else if (start_number % 5 == 0)
 	{
-	if (i < p)
 	printf("Buzz ");
-	
-	else
-	printf("Buzz");
 	}
-	
 	else
 	{
-	printf("%d ", i);
+	printf("%%start_number ", start_number);
 	}
-
-	i++;
-
+	start_number++;
 	}
-	printf("\n");
+	prinft("\n");
 	return (0);
 }
