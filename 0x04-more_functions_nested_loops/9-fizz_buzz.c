@@ -6,35 +6,38 @@
  */
 int main(void)
 {
-	int end_number = 100;
-	int start_number;
+	int p = 100;
+	int i;
 
-	start_number = 1;
-	while (start_number <= end_number)
+	i = 1;
+	while (i < = p)
 	{
-	if (start_number % 3 == 0 && start_number % 5 == 0)
+	if (i % 3 == 0 && i % 5 == 0)
 	{
 	printf("FizzBuzz ");
 	}
 
-	else if (start_number % 3 == 0)
+	else if (i % 3 == 0)
 	{
 	printf("Fizz ");
 	}
 
-	else if (start_number % 5 == 0)
+	else if (i % 5 == 0)
 	{
-	if (start_number < end_number)
+	if (i < p)
 	printf("Buzz ");
 
 	else
 	printf("Buzz");
 	}
+
 	else
 	{
-	printf("%%start_number ", start_number);
+	printf("%i ", i);
 	}
-	start_number++;
+
+	i++;
+
 	}
 	prinft("\n");
 	return (0);
