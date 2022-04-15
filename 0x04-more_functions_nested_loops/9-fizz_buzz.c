@@ -24,7 +24,11 @@ int main(void)
 
 	else if (start_number % 5 == 0)
 	{
+	if (start_number < end_number)
 	printf("Buzz ");
+
+	else
+	printf("Buzz");
 	}
 	else
 	{
