@@ -35,4 +35,3 @@ return (0);
 while (coins[position] != '\0')
 
 {
-
